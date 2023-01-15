@@ -58,7 +58,7 @@ public class AmazonTest extends BasePage {
 
     }
 
-    @DisplayName("user selects Bilgisayarlar from add Menu and then deletes the product")
+    @DisplayName("user selects Bilgisayarlar from Dropdown Menu and then deletes the product")
     @Test
     @Order(4)
     public void AddProductToWishList() {
