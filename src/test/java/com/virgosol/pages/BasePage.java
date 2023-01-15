@@ -19,26 +19,24 @@ public abstract class BasePage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-   // @FindBy(xpath = "//a[.='Giriş Yap']")
-   // public WebElement signInTab;
+
 
     @FindBy(id = "ap_email")
     public WebElement addEmail;
 
     @FindBy(id = "continue")
-    public WebElement continueButton;
+    public WebElement emailsubmitButton;
 
-    @FindBy(id = "createAccountSubmit")
-    public WebElement createAccountButton;
 
     @FindBy(id = "ap_password")
     public WebElement passwordInputBox;
 
     @FindBy(id = "signInSubmit")
-    public WebElement signInButton1;
+    public WebElement passwordSubmitButton;
 
     @FindBy(id = "nav-link-accountList-nav-line-1")
     public WebElement signInButton2;
+
 
     @FindBy(id = "sp-cc-accept")
     public WebElement cookies;
@@ -47,9 +45,9 @@ public abstract class BasePage {
     public void login(String username, String password) {
         this.signInButton2.click();
         this.addEmail.sendKeys(username);
-        this.continueButton.click();
+        this.emailsubmitButton.click();
         this.passwordInputBox.sendKeys(password);
-        this.signInButton1.click();
+        this.passwordSubmitButton.click();
     }
 
 

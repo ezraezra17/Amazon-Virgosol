@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 
-public class DropdownPage extends BasePage {
+public class AddProductToWishList extends BasePage  {
 
     @FindBy(id = "twotabsearchtextbox")
     public WebElement searchBox;
@@ -40,7 +40,7 @@ public class DropdownPage extends BasePage {
     @FindBy(xpath = "//span[.='Daha fazla bilgi göster']")
     public WebElement showMoreInfoLink;
 
-    @FindBy(xpath = "//input[@name='submit.deleteItem']")
+    @FindBy(xpath = "(//input[@class='a-button-input a-declarative'])[2]")
     public WebElement deleteListButton;
 
     @FindBy(xpath = "//span[.='Çıkış Yap']")
