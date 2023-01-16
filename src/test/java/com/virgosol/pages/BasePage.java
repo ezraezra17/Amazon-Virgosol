@@ -67,10 +67,10 @@ public abstract class BasePage {
 
     }
 
-@AfterAll
-    public void tearDown(){
-        Driver.closeDriver();
-}
+/**@AfterAll
+   // public void tearDown(){
+        //Driver.closeDriver();
+}*/
 
 
 

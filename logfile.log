@@ -1079,3 +1079,70 @@ Driver info: driver.version: RemoteWebDriver
 2023-01-16 10:39:08,227 INFO  [Log] user creates a new List PASSED 
 2023-01-16 10:39:43,544 INFO  [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product PASSED 
 2023-01-16 10:39:44,974 INFO  [Log] User signs out PASSED 
+2023-01-21 21:46:44,795 ERROR [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#searchDropdownBox"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eshaz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cf0bfdf2c5c99398e82b2c730b5e4e7
+*** Element info: {Using=id, value=searchDropdownBox} 
+2023-01-21 21:47:33,247 INFO  [Log] LandingPage Test PASSED 
+2023-01-21 21:47:40,817 INFO  [Log] user Signs In PASSED 
+2023-01-21 21:47:45,940 INFO  [Log] user creates a new List PASSED 
+2023-01-21 21:48:12,970 ERROR [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@title='Soğutma Fanı, CPU Soğutma Fanı MSI GS63VR için Mükemmel İşçilik MSI GS73VR için MSI 16K4'])[2]"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eshaz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51850}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b18207fc8ca27e4289dc3d1305a92b3
+*** Element info: {Using=xpath, value=(//a[@title='Soğutma Fanı, CPU Soğutma Fanı MSI GS63VR için Mükemmel İşçilik MSI GS73VR için MSI 16K4'])[2]} 
+2023-01-21 21:48:14,707 INFO  [Log] User signs out PASSED 
+2023-01-21 22:00:37,491 INFO  [Log] LandingPage Test PASSED 
+2023-01-21 22:00:51,593 INFO  [Log] user Signs In PASSED 
+2023-01-21 22:00:55,401 INFO  [Log] user creates a new List PASSED 
+2023-01-21 22:01:25,937 ERROR [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@title='Soğutma Fanı, CPU Soğutma Fanı MSI GS63VR için Mükemmel İşçilik MSI GS73VR için MSI 16K4'])[2]"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eshaz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac445a090ce319df1854c69e02622063
+*** Element info: {Using=xpath, value=(//a[@title='Soğutma Fanı, CPU Soğutma Fanı MSI GS63VR için Mükemmel İşçilik MSI GS73VR için MSI 16K4'])[2]} 
+2023-01-21 22:01:29,017 INFO  [Log] User signs out PASSED 
+2023-01-21 22:02:40,163 INFO  [Log] LandingPage Test PASSED 
+2023-01-21 22:02:46,494 INFO  [Log] user Signs In PASSED 
+2023-01-21 22:02:50,579 INFO  [Log] user creates a new List PASSED 
+2023-01-21 22:03:19,198 ERROR [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@title='Soğutma Fanı, CPU Soğutma Fanı MSI GS63VR için Mükemmel İşçilik MSI GS73VR için MSI 16K4'])[2]"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eshaz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 999e7be30de13c2c05c2dd02c1ea4d09
+*** Element info: {Using=xpath, value=(//a[@title='Soğutma Fanı, CPU Soğutma Fanı MSI GS63VR için Mükemmel İşçilik MSI GS73VR için MSI 16K4'])[2]} 
+2023-01-21 22:03:19,257 INFO  [Log] User signs outDISABLED 
+2023-01-21 22:10:54,632 ERROR [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#searchDropdownBox"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eshaz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed164d22dfa4418dfdd549161c9f01dd
+*** Element info: {Using=id, value=searchDropdownBox} 
+2023-01-21 22:11:32,097 INFO  [Log] LandingPage Test PASSED 
+2023-01-21 22:11:38,576 INFO  [Log] user Signs In PASSED 
+2023-01-21 22:11:42,277 INFO  [Log] user creates a new List PASSED 
+2023-01-21 22:12:11,466 INFO  [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product PASSED 
+2023-01-21 22:12:11,472 INFO  [Log] User signs outDISABLED 
+2023-01-21 22:17:05,749 INFO  [Log] LandingPage Test PASSED 
+2023-01-21 22:17:12,015 INFO  [Log] user Signs In PASSED 
+2023-01-21 22:17:15,885 INFO  [Log] user creates a new List PASSED 
+2023-01-21 22:17:35,948 INFO  [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product PASSED 
+2023-01-21 22:17:37,358 INFO  [Log] User signs out PASSED 

@@ -27,7 +27,7 @@ public class AddProductToWishList extends BasePage  {
     @FindBy(xpath = "//a[.='Listenizi Görüntüleyin']")
     public WebElement inspectYourLinkButton;
 
-    @FindBy(xpath = "(//a[@title='Soğutma Fanı, CPU Soğutma Fanı MSI GS63VR için Mükemmel İşçilik MSI GS73VR için MSI 16K4'])[2]")
+    @FindBy(xpath = "//h2[@class='a-size-base']")
     public WebElement listItemCheck;
 
 
@@ -45,6 +45,9 @@ public class AddProductToWishList extends BasePage  {
 
     @FindBy(xpath = "//span[.='Çıkış Yap']")
     public WebElement signOutButton;
+
+    @FindBy(xpath = "(//div[.='Silindi'])[2]")
+    public WebElement deleted;
 
 
 

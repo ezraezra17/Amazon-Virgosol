@@ -78,15 +78,17 @@ public class AmazonTest extends BasePage {
         add.listItem.click();
         waitSeconds(3);
         add.inspectYourLinkButton.click();
+
         assertTrue(add.listItemCheck.isDisplayed());
         add.deleteListButton.click();
 
-        try {
+        assertEquals("Silindi",add.deleted.getText());
+       /** try {
             assertFalse(add.secondProduct.isDisplayed());
         } catch (NoSuchElementException e) {
             e.printStackTrace();
             System.err.println("Product was deleted from the page");
-        }
+        }*/
     }
 
 
