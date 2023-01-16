@@ -41,6 +41,9 @@ public abstract class BasePage {
     @FindBy(id = "sp-cc-accept")
     public WebElement cookies;
 
+    @FindBy(id = "nav-link-accountList-nav-line-1")
+    public WebElement signInCheck;
+
 
     public void login(String username, String password) {
         this.signInButton2.click();

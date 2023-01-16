@@ -1028,3 +1028,54 @@ Session ID: 2e7aab46143e8be2da85916ca5d48197
 2023-01-16 00:39:05,707 INFO  [Log] user creates a new List PASSED 
 2023-01-16 00:39:34,115 INFO  [Log] user selects Bilgisayarlar from add Menu PASSED 
 2023-01-16 00:39:35,470 INFO  [Log] User signs out PASSED 
+2023-01-16 00:43:35,271 INFO  [Log] LandingPage Test PASSED 
+2023-01-16 00:43:40,842 INFO  [Log] user Signs In PASSED 
+2023-01-16 00:43:44,728 INFO  [Log] user creates a new List PASSED 
+2023-01-16 00:44:11,457 INFO  [Log] user selects Bilgisayarlar from Dropdown Menu and then deletes the product PASSED 
+2023-01-16 00:44:12,662 INFO  [Log] User signs out PASSED 
+2023-01-16 10:24:40,667 INFO  [Log] LandingPage Test PASSED 
+2023-01-16 10:24:46,853 ERROR [Log] user Signs In FAILED with cause : user couldn't log into the account ==> expected: <true> but was: <false> 
+2023-01-16 10:24:51,247 INFO  [Log] user creates a new List PASSED 
+2023-01-16 10:28:43,464 INFO  [Log] LandingPage Test PASSED 
+2023-01-16 10:28:50,009 INFO  [Log] user Signs In PASSED 
+2023-01-16 10:28:53,578 INFO  [Log] user creates a new List PASSED 
+2023-01-16 10:29:21,321 INFO  [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product PASSED 
+2023-01-16 10:29:22,640 INFO  [Log] User signs out PASSED 
+2023-01-16 10:36:18,928 ERROR [Log] LandingPage Test FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eshaz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52706}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05daf9f96647a53ff5c26d21d968ddad 
+2023-01-16 10:36:19,171 ERROR [Log] user Signs In FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eshaz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52706}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05daf9f96647a53ff5c26d21d968ddad
+*** Element info: {Using=id, value=nav-link-accountList-nav-line-1} 
+2023-01-16 10:36:19,225 ERROR [Log] user creates a new List FAILED with cause : java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver 
+2023-01-16 10:36:19,291 ERROR [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\eshaz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52706}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05daf9f96647a53ff5c26d21d968ddad 
+2023-01-16 10:36:19,398 ERROR [Log] User signs out FAILED with cause : java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7OT3C58', ip: '192.168.1.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver 
+2023-01-16 10:38:56,212 INFO  [Log] LandingPage Test PASSED 
+2023-01-16 10:39:03,343 INFO  [Log] user Signs In PASSED 
+2023-01-16 10:39:08,227 INFO  [Log] user creates a new List PASSED 
+2023-01-16 10:39:43,544 INFO  [Log] User selects Bilgisayarlar from Dropdown Menu and then deletes the product PASSED 
+2023-01-16 10:39:44,974 INFO  [Log] User signs out PASSED 

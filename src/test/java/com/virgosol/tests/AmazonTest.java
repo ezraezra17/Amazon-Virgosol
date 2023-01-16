@@ -26,7 +26,7 @@ public class AmazonTest extends BasePage {
     @Order(1)
     public void homePage() {
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-        assertEquals(Driver.getDriver().getCurrentUrl(), "https://www.amazon.com.tr/", "title is not displayed");
+        assertEquals("https://www.amazon.com.tr/",Driver.getDriver().getCurrentUrl(), "title is not displayed");
         cookies();
 
     }
@@ -37,7 +37,7 @@ public class AmazonTest extends BasePage {
     public void signIn() {
 
         login(ConfigurationReader.getProperty("username"), ConfigurationReader.getProperty("password"));
-        assertTrue(Driver.getDriver().getCurrentUrl().contains("signin"), "user couldn't log into the account");
+        assertTrue(signInCheck.getText().contains("esra"));
 
     }
 
@@ -58,7 +58,7 @@ public class AmazonTest extends BasePage {
 
     }
 
-    @DisplayName("user selects Bilgisayarlar from Dropdown Menu and then deletes the product")
+    @DisplayName("User selects Bilgisayarlar from Dropdown Menu and then deletes the product")
     @Test
     @Order(4)
     public void AddProductToWishList() {
